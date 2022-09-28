@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytorch"
+version = "0.1.0"
+description = ""
+authors = ["patree <treeshnapati@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.3"
+pandas = "^1.5.0"
+torch = "^1.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
