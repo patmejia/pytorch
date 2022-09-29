@@ -20,3 +20,5 @@ are more complex and more prone to overfitting. it is a good idea to start with 
 1. leaf is a node that does not have any children. the prediction for a leaf is the average of the target values in the training data that fall into that leaf.
 
 "The point at the bottom where we make a prediction is called a leaf."` The leaves of the tree are the final predictions that the model makes.`
+
+1. Pandas is the primary tool data scientists use for exploring and manipulating data. its abbreviate code ais `pd`. We do this with the command `import pandas as pd`.
