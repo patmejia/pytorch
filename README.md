@@ -95,3 +95,12 @@ Available commands:
   source remove      Remove source configured for the project.
   source show        Show information about sources configured for the project.
 ```
+
+# Run the code
+
+For instance, to run the code in the `src` folder, you can use the following command:
+
+```bash
+poetry run python src/networkx_example.py # run the script
+
+```
