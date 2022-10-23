@@ -6,6 +6,15 @@ poetry shell
 poetry install
 ```
 
+## Run the code
+
+For instance, to run the code in the `src` folder, you can use the following command:
+
+```bash
+poetry run python src/networkx_example.py # run the script
+poetry run python src/main.py
+```
+
 ## Adding or Remove dependency
 
 ```bash
@@ -94,13 +103,4 @@ Available commands:
   source add         Add source configuration for project.
   source remove      Remove source configured for the project.
   source show        Show information about sources configured for the project.
-```
-
-# Run the code
-
-For instance, to run the code in the `src` folder, you can use the following command:
-
-```bash
-poetry run python src/networkx_example.py # run the script
-
 ```
